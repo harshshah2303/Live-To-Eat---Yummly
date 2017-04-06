@@ -1,0 +1,213 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menu">
+        <div class="menubar">
+            <a href="/WebForms/Default.aspx">
+            <img  src="../images/Logo.png" width='270' height='90' style="padding-left:30px;padding-right:114px"/></a>
+            </div>
+            <div class="browse">
+                <asp:DropDownList ID="browse" runat="server" onChange="window.location.href=this.value">
+                    <asp:ListItem Text="Browse" Value="Default.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Cuisines" Value="Cuisines.aspx"></asp:ListItem>
+                     <asp:ListItem Text="Festival" Value="Festival.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Healthy Eat" Value="HealthyEat.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Special Items" Value="SpecialDishes.aspx"></asp:ListItem>
+
+                </asp:DropDownList>
+
+            </div>
+
+
+            <div class="iconbar">
+                <a href="/WebForms/home.aspx" title="Home">
+                <img class="iconimage" src="../images/homeicon.png" />
+                 </a>
+               
+              <a href="/WebForms/ShoppingCart.aspx" title="Shopping cart">
+           <img class="iconimage" src="../images/shoppingcart.png" />
+                    </a>
+               <a href="/WebForms/Default.aspx" title="Logout">
+          <img class="iconimage" src="../images/logut.png" />
+                    </a>
+
+
+
+
+          
+                </div>
+        </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="yummly" />
+                <asp:ScriptReference Name="demo" />
+            </Scripts>
+        </asp:ScriptManager>
+        <br /><br /><br />
+    <div class="headerimage">
+        <div class="search1">
+        <input type="search" class="searchbox" id="search"  autosave="some_unique_value" results="5" placeholder="Search..." name="s"/>
+        <input type="button" class="gobutton" id="searchButton" value =" Go" />
+            </div>
+       
+        </div>
+        <br /><br /><br/>
+        <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderdefault" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+        <asp:ContentPlaceHolder id="ContentPlaceHolderhome" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderCollection" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           
+            <asp:ContentPlaceHolder id="ContentPlaceHolderlogout" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+            <asp:ContentPlaceHolder id="ContentPlaceHoldershoppingcart" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           
+            <asp:ContentPlaceHolder id="ContentPlaceHolderaddrecipe" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHoldercuisines" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolderfestival" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderhealthyeat" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderspecialdishes" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolderc_american" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_indian" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_chinese" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_british" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_mexican" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_italian" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_spanish" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderc_japanese" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolderc_french" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderf_halloween" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderf_christmas" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolderf_newyear" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderf_diwali" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderf_ed" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderf_thanksgiving" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderh_fruits" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderh_vegtables" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolderh_grains" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderh_proteinfoods" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderh_diary" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolderh_dryfruits" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolders_desserts" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolders_soups" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolders_seafood" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolders_pasta" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolders_dumbiriyani" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder id="ContentPlaceHolders_drinks" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+             <asp:ContentPlaceHolder ID="ContentPlaceHolderrecipe"  runat="server">
+
+        </asp:ContentPlaceHolder>
+            
+            
+            
+            
+            
+    </div>
+
+         <div class="footer">
+            <div class="image">
+               <img src="/images/Logo.png" height="55" width="200" />
+            </div>
+            <div class="left">
+                <b> &copy Live To Eat</b><br /><a href="/WebForms/Default.aspx" style="color: rgb(255,255,255)">www.livetoeat.com</a> <br /> 
+            </div>
+            <div class="center">
+               <b>CONTACT US</b><br />
+              
+                <a href="mailto:harshshah2303@gmail.com" target="_top">Send Mail</a>
+            </div>
+            <div class="right">
+                <b>CONNECT US</b><br />
+                <a href="https://www.facebook.com/livetoeat23/?ref=hl" style="color: rgb(255,255,255)">
+                    <img src="/images/facebook-icon.png" style="height:21px;width:25px"/></a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

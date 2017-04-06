@@ -1,0 +1,787 @@
+﻿body {
+ background-image: url('images/bg.jpg');
+    font-family:'Comic Sans MS';
+ color: white;
+}
+.headerimage {
+background-image:url('../images/foodhome.jpg'); 
+background-repeat:no-repeat;
+height:400px;
+width:1490px;
+background-size:1490px,400px;  
+padding-top:20px;
+
+
+
+}
+.menu {
+display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction:         row;
+  flex:3;
+  padding-top:10px;
+}
+.menubar {
+-webkit-order: 1; /* Safari */
+  order:1;
+  padding-right:50px;
+height:50px;
+}
+.browse {
+-webkit-order: 2; /* Safari */
+  order:2;
+  padding-right:550px;
+ 
+ 
+}
+#browse{
+    background-color:orange;
+    border:5px double white;
+}
+.iconimage {
+
+height:30px;
+width:30px;
+padding-left:10px;
+padding-right:10px;
+}
+.iconbar {
+    -webkit-order: 3; /* Safari */
+  order:3;
+float:right;
+object-position:right;
+justify-content: flex-end;
+padding-right:10px;
+}
+.searchbox {
+   
+ padding-left:0px;
+   
+  height:50px;
+  width:500px;
+  
+    background-color:transparent;
+             /* Overridden by padding: 1px; */
+	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
+	border: 5px solid orange;  /* Overridden by border: 2px inset; */
+	cursor: pointer;
+    font-size:20px;	
+	
+	
+	
+
+}
+.footer {
+height:50px;
+width:1250px;
+background-image:url('../images/brown-background-waves.jpg');
+padding:10px 50px;
+display:flex;
+color:white;
+flex-direction:row;
+ flex:3;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+
+  /* Remove default */
+  -webkit-appearance: none;
+    
+  /* Now your own custom styles */
+  height: 10px;
+  width: 10px;
+  background-size:10px,10px;
+  background-image: url('../images/cancelsearchicon.jpg');
+  /* Will place small red box on the right of input (positioning carries over) */
+
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+.left {
+    order:1;
+    padding-left:50px;
+}
+.center {
+    order:2;
+    padding-left:250px;
+    
+}
+.right {
+    order:3;
+    padding-left:250px;
+}
+.mainimage{
+    display:flex;
+    flex-direction:row;
+    flex:2;
+    background-color:black ;
+    height: 400px;
+    width: 1250px;
+    color:white;
+}
+.rtitle{
+    order:1;
+    padding-left:100px;
+    padding-top:150px;
+    width:200px;
+}
+.rimage{
+    order:2;
+    padding-left:175px;
+    
+}
+.recipeheader{
+    display:flex;
+    flex-direction:row;
+    flex:5;
+}
+.ingredients{
+    /*order:1;*/
+  
+    color:tomato;
+    font-family:'Comic Sans MS';
+    font-size:30px;    
+}
+.nutrition{
+    order:2;
+    padding-left:100px;
+    color:tomato;
+    font-family:'Comic Sans MS';
+    font-size:30px;  
+}
+.cook{
+    order:3;
+    color:tomato;
+    font-family:'Comic Sans MS';
+    font-size:30px;
+    padding-left:20px;  
+    
+}
+.flavors{
+    order:4;
+    padding-left:150px;
+    color:tomato;
+    font-family:'Comic Sans MS';
+    font-size:30px;  
+}
+.servings{
+    order:5;
+    padding-left:100px;
+    color:Blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+}
+
+
+#section1{
+    width:300px;
+    height:300px;
+}#section2{
+    width:320px;
+    height:200px;
+    
+}
+ }#section3{
+    width:300px;
+    height:200px;
+  
+}
+  }#section4{
+    width:400px;
+    height:200px;
+}
+.Read{
+    
+    padding-left:500px;
+}
+.recipebutton{
+    background-color:black;
+    color:white;
+    width:300px;
+    height:50px;
+    
+}
+.ing{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+}
+.nut{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+    padding-left:80px;
+
+}
+.ct{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+    padding-left:100px;
+}
+.ser{
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size:5px;
+    padding-left:40px;
+
+}
+.fl{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+    padding-left:20px;
+}
+
+
+.footer {
+height:50px;
+width:1390px;
+ background-image: url('../images/fbackground.jpg');
+
+
+}
+.footerpadding{
+    padding-bottom:2px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+
+  /* Remove default */
+  -webkit-appearance: none;
+    
+  /* Now your own custom styles */
+  height: 10px;
+  width: 10px;
+  background-size:10px,10px;
+  background-image: url('../images/cancelsearchicon.jpg');
+  /* Will place small red box on the right of input (positioning carries over) */
+
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.bodyFlex1 {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+ width:1250px;
+ padding-bottom:20px;
+ height:600px;
+
+   
+}
+.bodyFlex2 {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+ width:1250px;
+ padding-bottom:20px;
+ height:400px;
+
+   
+}
+
+.image1
+{
+    height:300px;
+    width:300px;
+}
+.image2{
+    height:300px;
+    width:400px;
+}
+.homeMenu{
+    padding-bottom:10px;
+    text-align:center;
+    color:tomato;
+    font-size:30px;
+    font-family:'Matura MT Script Capitals';                       
+
+}
+.menuItem{
+    display:flex;
+   flex-direction:column;
+   
+  
+}
+.menuItem1{
+    display:flex;
+    flex-direction:column;
+
+
+}
+.menuLinks{
+    color:white;
+}
+
+.menuLinks:hover{
+    color:lightseagreen;
+}
+.menuContent{
+    text-align:center;
+    font-size:15px;
+    font-family: 'Global Serif';
+    color:white;
+    text-wrap:avoid;
+    
+
+}
+.bodyFlex{
+    display:flex;
+    flex-direction:column;
+}
+.fruitimg {
+    background-image: url('../images/Fruits.JPG');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px; 
+}
+.vegimg {
+    background-image: url('../images/veg.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.grainimg {
+    background-image: url('../images/Whole-Grain-Products.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.proimg {
+    background-image: url('../images/Protein-Foods.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.dairyimg {
+    background-image: url('../images/dairy-products.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.dryimg {
+    background-image: url('images/DriedfruitS.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.dessertsimg {
+    background-image: url('images/Deserts.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.drinksimg {
+    background-image: url('images/Drinks.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.dumimg {
+    background-image: url('images/DumBiriyani.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 72px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.seaimg {
+    background-image: url('images/SeaFood.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.soupimg {
+    background-image: url('images/Soups.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.pastaimg {
+    background-image: url('images/Pasta.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+}
+.christmasimg {
+    background-image: url('../images/christmas-party-food.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px; 
+}
+.halloweenimg {
+    background-image: url('../images/Halloween.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 80px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px; 
+    
+}
+.diwaliimg {
+    background-image: url('../images/Diwali-Kaju Katli.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px; 
+}
+.edimg {
+    background-image: url('../images/sh 1.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px;
+}
+.newyearimg {
+    background-image: url('images/New Year.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 40px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px;
+}
+.thanksgivingimg {
+    background-image: url('images/thanksgiving.jpg');
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height:300px;
+    width:400px;
+}
+.americancuisimage {
+
+background-image: url('../images/American cuisine.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.britishcuisimage {
+
+background-image: url('../images/British cuisine 1.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.chinesecuisimage {
+
+background-image: url('../images/Chinese cuisine 1.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.frenchcuisimage {
+
+background-image: url('../images/French cuisine 1.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.indiancuisimage {
+
+background-image: url('../images/Indian cuisine 1.jpeg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.italiancuisimage {
+
+background-image: url('../images/Italian cuisine.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.japanesecuisimage {
+
+background-image: url('../images/Japanese cuisne.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.mexicancuisimage {
+
+background-image: url('../images/Mexican cuisine.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+.spanishcuisimage {
+
+background-image: url('../images/Spanish cuisine.jpg'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+     height:300px;
+    width:400px;         /* make this the size of your image */
+     /* align the text vertically centered */
+}
+
+.gobutton {
+background-color:orange;
+
+
+}
+.div1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding-right:45px;    
+    flex: 4;
+  //  background-color:grey;
+    
+}
+.sec1 {
+    height: 280px;
+    width: 250px;
+    border: 2px solid black;
+    order: 1;
+    background-image: url('images/tile.jpg');
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-color: AppWorkspace ActiveBorder;
+    color: orangered;
+}
+.img1{
+    height:60px;
+    width:90px;
+    padding-left:60px;
+    padding-top:20px;
+}
+.namediv{
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:15px;
+     font-style:italic;
+     color:orangered;
+ }
+.ratediv{
+    font-family:'Times New Roman', Times, serif;
+     font-size:20px;
+     color:white;
+}
+.timediv{
+    font-family:'Times New Roman', Times, serif;
+     font-size:20px;
+     color:black;
+}
+
+
+/* Added by SN */
+
+#flexbody
+{
+    display:flex;
+    width:1250px;
+    flex-direction:row;
+}
+#div1{
+    display:flex;
+    flex-direction:column;
+    padding-left:50px;
+}
+#div2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.headings{
+    font-family:Calibri;
+    font-size:20px;
+    color:white;
+  
+}
+#span1_6{
+    padding-top:50px;
+}
+.content{
+    font-family:Calibri;
+    font-size:40px;
+    color: deepskyblue;
+}
+.content1{
+    font-family:Calibri;
+    font-size:20px;
+    color: deepskyblue;
+    padding-left:40px;
+}
+#span1_8
+{
+    font-family:Calibri;
+    padding-left:30px;
+    color:brown;
+    font-size:40px;
+    padding-bottom:30px;
+}
+.headings1{
+     color: brown;
+    font-size:40px;
+    font-family:Calibri;
+     padding-left:50px;
+}
+#image
+{
+width:600px;
+padding-top:25px;
+padding-bottom:30px;
+}
+.button{
+-moz-box-shadow: 3px 4px 0px 0px #c98620;
+-webkit-box-shadow: 3px 4px 0px 0px #c98620;
+box-shadow: 3px 4px 0px 0px #c98620;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffa50a), color-stop(1, #f0ac38));
+background:-moz-linear-gradient(top, #ffa50a 5%, #f0ac38 100%);
+background:-webkit-linear-gradient(top, #ffa50a 5%, #f0ac38 100%);
+background:-o-linear-gradient(top, #ffa50a 5%, #f0ac38 100%);
+background:-ms-linear-gradient(top, #ffa50a 5%, #f0ac38 100%);
+background:linear-gradient(to bottom, #ffa50a 5%, #f0ac38 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa50a', endColorstr='#f0ac38',GradientType=0);
+background-color:#ffa50a;
+-moz-border-radius:18px;
+-webkit-border-radius:18px;
+border-radius:18px;
+border:1px solid #cfa219;
+display:inline-block;
+cursor:pointer;
+color:#805521;
+font-family:Arial;
+font-size:17px;
+padding:7px 25px;
+text-decoration:none;
+text-shadow:0px 1px 0px #804f05;
+margin-left: 60px;
+}
+.button:hover {background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0ac38), color-stop(1, #ffa50a));
+background:-moz-linear-gradient(top, #f0ac38 5%, #ffa50a 100%);
+background:-webkit-linear-gradient(top, #f0ac38 5%, #ffa50a 100%);
+background:-o-linear-gradient(top, #f0ac38 5%, #ffa50a 100%);
+background:-ms-linear-gradient(top, #f0ac38 5%, #ffa50a 100%);
+background:linear-gradient(to bottom, #f0ac38 5%, #ffa50a 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0ac38', endColorstr='#ffa50a',GradientType=0);
+background-color:#f0ac38;
+}
+.button:active {
+position:relative;
+top:1px;
+}
+#singleresultdiv{
+background-image: url("~/images/background.jpg");
+}
+
+
+
+
+/* Till here*/
+
+.search1 {
+    padding: 190px 1px 1px 480px;
+    
+}
